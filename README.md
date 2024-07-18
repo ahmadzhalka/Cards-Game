@@ -15,34 +15,35 @@ MyGameApp is a mobile application that provides a simple yet engaging game where
 
 # Features
 
-First-time User Experience: When logging in for the first time, the user is prompted to enter their name. On subsequent logins, the name is displayed automatically.
-Location-Based Side Assignment: The app samples the user's location to determine their side (East or West).
-Automatic Gameplay: The game runs automatically, flipping cards every 5 seconds and displaying each card for 3 seconds.
-Score Tracking: Scores are updated in real-time based on the strength of the cards.
-Game End and Summary: After 10 rounds, the game ends and displays the winner along with the scores. A button to return to the main menu is provided.
+- **First-time User Experience**: When logging in for the first time, the user is prompted to enter their name. On subsequent logins, the name is displayed automatically.
+- **Location-Based Side Assignment**: The app samples the user's location to determine their side (East or West).
+- **Automatic Gameplay**: The game runs automatically, flipping cards every 5 seconds and displaying each card for 3 seconds.
+- **Score Tracking**: Scores are updated in real-time based on the strength of the cards.
+- **Game End and Summary**: After 10 rounds, the game ends and displays the winner along with the scores. A button to return to the main menu is provided.
 
 # Requirements
 
-Platform: iOS 
-Tools: Xcode for iOS development.
+- **Platform**: iOS 
+- **Tools**: Xcode for iOS development
+- **Emulator**: To test location-based features, a dummy location can be set through the emulator
 
 # Usage
 
-First-time Login:
-Open the app.
-Enter your name when prompted.
-Subsequent Logins:
-The app will display your name automatically.
-Location Sampling:
-The app will sample your location and determine your side (East or West) based on the latitude 34.817549168324334.
-The location request will stop once the location is received.
-Gameplay:
-The game will start automatically.
-Cards will flip every 5 seconds and display for 3 seconds.
-Scores will be updated based on the strength of the cards.
-Game End:
-After 10 rounds, the game will end and display the winner and the scores.
-Use the "Back to Main Menu" button to return to the main menu.
+- **First-time Login**:
+  - Open the app.
+  - Enter your name when prompted.
+- **Subsequent Logins**:
+  - The app will display your name automatically.
+- **Location Sampling**:
+  - The app will sample your location and determine your side (East or West) based on the latitude 34.817549168324334.
+  - The location request will stop once the location is received.
+- **Gameplay**:
+  - The game will start automatically.
+  - Cards will flip every 5 seconds and display for 3 seconds.
+  - Scores will be updated based on the strength of the cards.
+- **Game End**:
+  - After 10 rounds, the game will end and display the winner and the scores.
+  - Use the "Back to Main Menu" button to return to the main menu.
 
 # ScreenShot
 
